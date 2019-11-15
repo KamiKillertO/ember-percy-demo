@@ -4,3 +4,17 @@
 
   background-color: tomato;
 }
+
+@media (max-width: 768px) {
+  .colored-box {
+    background-color: yellow;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .colored-box {
+    background-color: slateblue;
+  }
+
+}

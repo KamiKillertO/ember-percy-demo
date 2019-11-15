@@ -47,5 +47,14 @@ module.exports = function(environment) {
     // here you can enable a production-specific feature
   }
 
+  ENV.percy = {
+    breakpointsConfig: {
+      mobile: 375,
+      tablet: 768,
+      desktop: 1280
+    },
+    defaultBreakpoints: ['mobile', 'tablet', 'desktop']
+  }
+
   return ENV;
 };
