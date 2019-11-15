@@ -21,4 +21,4 @@ env:
 script:
   - npm run lint:hbs
   - npm run lint:js
-  - npm test
+  - PERCY_TOKEN=1827bc242278c8defccbceee36e869eb5b1f4850a49045c0ae0300532223b646 npm test
